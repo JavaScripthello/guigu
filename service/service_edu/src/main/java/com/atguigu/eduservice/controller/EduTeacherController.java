@@ -42,6 +42,8 @@ public class EduTeacherController {
     public ResultUtils findAll() {
         List<EduTeacher> list = eduTeacherService.list(null);
         //int i =1/0;
+        System.out.println("测试测试");
+        System.out.println("测试测试");
         return ResultUtils.ok().data("list", list);
     }
 
