@@ -1,0 +1,16 @@
+# Project exclude paths
+/common/common_utils/target/
+/common/service_base/target/
+/service/service_edu/target/
+/service/service_oss1/target/
+
+
+**/mvnw
+**/mvnw.cmd
+
+**/.mvn
+**/target/
+
+.idea
+
+**/.gitignore
